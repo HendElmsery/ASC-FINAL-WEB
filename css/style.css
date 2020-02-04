@@ -7,7 +7,7 @@
 	font-family: "Noor";
 	font-style: normal;
 	font-weight: 400;
-	src: local(""), url(../fonts/NoorRegular.woff) format("woff");
+	src: local(""), url(../fonts) format("woff");
 }
 
 /* Bold Font */
@@ -157,12 +157,6 @@ a {
 }
 .slider .image-4 {
     background-image: url("../images/2.jpg");
-}
-.slider .image-5 {
-    background-image: url("../images/5.jpg");
-}
-.slider .image-6 {
-    background-image: url("../images/6.jpg");
 }
 
 .carousel-inner .overlay {
