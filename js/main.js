@@ -66,3 +66,31 @@ $('.owl-carousel').owlCarousel({
     },
   },
 });
+// lazy load function
+function preloadImage(img) {
+  img.src = img.dataset.src;
+}
+
+const config = {
+  rootMargin: '0px 0px 50px 0px',
+  threshold: 0,
+};
+
+// register the config object with an instance of intersectionObserver
+const observer = new IntersectionObserver(function(entries, self) {
+  // iterate over each entry
+  entries.forEach(entry => {
+    // process just the images that are intersecting.
+    if (entry.isIntersecting) {
+      // from data-src to src
+      preloadImage(entry.target);
+      // the image is now in place, stop watching
+      self.unobserve(entry.target);
+    }
+  });
+}, config);
+
+const imgs = document.querySelectorAll('[data-src]');
+imgs.forEach(img => {
+  observer.observe(img);
+});
