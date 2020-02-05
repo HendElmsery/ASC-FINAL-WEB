@@ -7,7 +7,7 @@
 	font-family: "Noor";
 	font-style: normal;
 	font-weight: 400;
-	src: local(""), url(../fonts) format("woff");
+	src: local(""), url(../fonts/NoorRegular.woff) format("woff");
 }
 
 /* Bold Font */
