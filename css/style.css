@@ -4,6 +4,7 @@
 
 /* Regular Font */
 @font-face {
+    font-display: swap;
 	font-family: "Noor";
 	font-style: normal;
 	font-weight: 400;
@@ -12,6 +13,7 @@
 
 /* Bold Font */
 @font-face {
+    font-display: swap;
 	font-family: "Noor";
 	font-style: normal;
 	font-weight: 700;
