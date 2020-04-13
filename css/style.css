@@ -117,7 +117,7 @@ a {
 
 /* Start Slider */
 .carousel-1 {
-    border-radius: 0%;
+    border-radius: 0% !important;
 }
 .slider, .carousel-item {
     height: 100vh;
@@ -466,14 +466,15 @@ p.magazine-edition.green {
 @media (max-width: 500px) {
     .carousel-item p {
         padding-top: 0px;
+        font-size: 15px;
     }  
         .carousel-2 {
-        height: 450px;
+        height: 400px;
     }
 }
 @media (max-width: 300px ) {
    .carousel-2 {
-        height: 550px;
+        height: 700px;
     }
 }
 /* End courses */
