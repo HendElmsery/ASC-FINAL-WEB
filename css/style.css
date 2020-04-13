@@ -437,7 +437,7 @@ p.magazine-edition.green {
     font-size: 17px;
 }
 /* feedback */
-.carousel {
+.carousel-2 {
     position: relative;
     overflow: hidden;
     border-radius: 12%;
@@ -445,7 +445,7 @@ p.magazine-edition.green {
    background-color: #d1d3d4;
     height: 250px;
 }
-.carousel .about .h1 {
+.carousel-2 .about .h1 {
    padding-top: 40px !important;
     
 }
@@ -464,7 +464,7 @@ p.magazine-edition.green {
     .carousel-item p {
         padding-top: 0px;
     }  
-        .carousel {
+        .carousel-2 {
         height: 400px;
     }
 }
