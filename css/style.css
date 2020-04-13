@@ -116,6 +116,9 @@ a {
 /* End NAvbar */
 
 /* Start Slider */
+.carousel-1 {
+    border-radius: 0%;
+}
 .slider, .carousel-item {
     height: 100vh;
 }
@@ -465,7 +468,7 @@ p.magazine-edition.green {
         padding-top: 0px;
     }  
         .carousel-2 {
-        height: 400px;
+        height: 450px;
     }
 }
 @media (min-width: 300px ) {
