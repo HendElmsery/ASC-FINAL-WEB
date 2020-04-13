@@ -471,8 +471,10 @@ p.magazine-edition.green {
         height: 450px;
     }
 }
-@media (min-width: 300px ) {
-
+@media (max-width: 300px ) {
+   .carousel-2 {
+        height: 550px;
+    }
 }
 /* End courses */
 footer {
