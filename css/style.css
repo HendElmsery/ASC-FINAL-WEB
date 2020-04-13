@@ -466,7 +466,6 @@ p.magazine-edition.green {
 @media (max-width: 500px) {
     .carousel-item p {
         padding-top: 0px;
-        font-size: 15px;
     }  
         .carousel-2 {
         height: 400px;
@@ -474,7 +473,7 @@ p.magazine-edition.green {
 }
 @media (max-width: 300px ) {
    .carousel-2 {
-        height: 700px;
+        height: 550px;
     }
 }
 /* End courses */
