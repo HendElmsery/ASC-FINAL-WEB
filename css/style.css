@@ -416,7 +416,7 @@ p.magazine-edition.green {
     overflow: hidden;
     transition: .3s ease;
 }
-.register{
+.card p{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -435,6 +435,41 @@ p.magazine-edition.green {
 }
 .card-body h4 {
     font-size: 17px;
+}
+/* feedback */
+.carousel {
+    position: relative;
+    overflow: hidden;
+    border-radius: 12%;
+    margin-top: 40px;
+   background-color: #d1d3d4;
+    height: 250px;
+}
+.carousel .about .h1 {
+   padding-top: 40px !important;
+    
+}
+.carousel-inner {
+}
+.carousel-item {
+    overflow: hidden;
+}
+.carousel-item p {
+    color: #fff;
+    padding-top: 10px;
+    overflow: hidden;
+}
+
+@media (max-width: 500px) {
+    .carousel-item p {
+        padding-top: 0px;
+    }  
+        .carousel {
+        height: 400px;
+    }
+}
+@media (min-width: 300px ) {
+
 }
 /* End courses */
 footer {
