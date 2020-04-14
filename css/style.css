@@ -55,7 +55,6 @@ a {
 	text-align: center;
 	color: #707070;
 	font-size: 25px;
-	font-family: "Playfair Display", serif;
 	font-family: "El Messiri", sans-serif;
 	text-decoration: none !important;
 }
@@ -443,38 +442,72 @@ p.magazine-edition.green {
 .carousel-2 {
     position: relative;
     overflow: hidden;
-    border-radius: 12%;
     margin-top: 40px;
-   background-color: #d1d3d4;
-    height: 250px;
+   background-color: #f5f5f5;
+    height: 256px;
+}
+.carousel-2 .about .qut {
+    overflow: hidden;
+    width: 50px;
+    height: 50px;
+    margin-left: 475px;
+}
+.carousel-2 .qut-1 {
+   
+   
+}
+.carousel-2 .qut-1 img {
+      width: 20%;
+    height: 20%
+    
+}
+
+.carousel-2 .about {
 }
 .carousel-2 .about .h1 {
-   padding-top: 40px !important;
-    
+    padding-top: 35px !important;
+    color: #23384c;
+    font-size: 25px;
+    font-weight: bolder;
 }
 .carousel-inner {
 }
 .carousel-item {
     overflow: hidden;
+    margin-right: 242px;
+    width: 57%;
 }
 .carousel-item p {
-    color: #fff;
+    text-align: center;
+    color: #6788a2;;
     padding-top: 10px;
     overflow: hidden;
+    
+}
+.carousel-item .ropot {
+    font-family: 'Roboto', sans-serif !important;
 }
 
 @media (max-width: 500px) {
     .carousel-item p {
         padding-top: 0px;
+        font-size: 20px;
     }  
+    .carousel-2 .about .h1 {
+        font-size: 25px;
+    }
         .carousel-2 {
-        height: 400px;
+        
     }
+    .carousel-item {
+    overflow: hidden;
+    margin-right: 0px;
+    width: 100%
 }
-@media (max-width: 300px ) {
-   .carousel-2 {
-        height: 550px;
-    }
+.carousel-2 .qut {
+    padding-left: 100px;
+    width: 40%;
+}
 }
 /* End courses */
 footer {
